@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: #676767;
+    font-family: Dotum;
+}
+
+.city-view {
+    background: url(photoshop/Bhagaskara-assets/base.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.decor {
+    color: #9f449b;
+}
+
+.title {
+    font-size: 90px;
+    color: white;
+}
+
+.title-row {
+    padding: 50px 0 70px 0;
+}
+
+.title-text1 {
+    font-size: 48px;
+    color: white;
+}
+.title-text2 {
+    padding: 10px 0 100px 0;
+    font-size: 24px;
+    color: white;
+}
+
+.col-md-6,
+.col-md-10,
+.col-md-12 {
+    text-align: center;
+}
+
+.btn-service {
+    background: url("photoshop/Bhagaskara-assets/btn_services.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-portfolio {
+    background: url("photoshop/Bhagaskara-assets/btn_portfolio_active.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-about {
+    background: url("photoshop/Bhagaskara-assets/btn_about.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-team {
+    background: url("photoshop/Bhagaskara-assets/btn_team.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-blog {
+    background: url("photoshop/Bhagaskara-assets/btn_blog.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-contact {
+    background: url("photoshop/Bhagaskara-assets/btn_contact.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.btn-scroll {
+    background: url("photoshop/Bhagaskara-assets/btn_scroller.png");
+    width: 86px;
+    height: 93px;
+    margin: 0 auto;
+}
+
+.btn-scroll:hover {
+    transform: scale(1.1);
+}
+
+.row-scroll {
+    padding-bottom: 150px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav li {
+    padding: 0 5px 0 10px;
+}
+
+.title-menu {
+    font-size: 30px;
+}
+
+.menu {
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.btn-build-love {
+    background: url("photoshop/Bhagaskara-assets/btn_buildLove.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-clean-mod {
+    background: url("photoshop/Bhagaskara-assets/btn_cleanMod.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-easy-use {
+    background: url("photoshop/Bhagaskara-assets/btn_easyToUse.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-fully-resp {
+    background: url("photoshop/Bhagaskara-assets/btn_fullyResp.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.menu-second {
+    background: #eeeeee;
+}
+
+.menu-second p {
+    font-size: 24px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.menu-second .row {
+    padding: 200px 0 200px 0;
+}
+
+.aboutUs {
+    background: url("photoshop/Bhagaskara-assets/aboutUs.png");
+    width: 270px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.screens {
+    background: url("photoshop/Bhagaskara-assets/screens.png");
+    width: 653px;
+    height: 415px;
+    margin: 0 auto;
+}
+
+.about-panel .row {
+    padding: 100px 0 150px 0;
+}
+
+.about-panel p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn-learnMore {
+    text-align: center;
+    width: 230px;
+    height: 70px;
+    background: #9f449b;
+    padding: 23px 0 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px #6b2e68;
+    margin: 174px 0 0 0;
+    color: white;
+    font-size: 20px;
+}
+
+.learn-panel {
+    background: url(photoshop/Bhagaskara-assets/base_learn.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 240px 0;
+}
+
+.icon-learn {
+    background: url("photoshop/Bhagaskara-assets/icon_learn.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.learn-panel .text {
+    color: white;
+    font-size: 46px;
+    padding: 80px 0 0 0;
+    line-height: 55px;
+}
+
+.ourTeam {
+    background: url("photoshop/Bhagaskara-assets/ourTeam.png");
+    width: 296px;
+    height: 114px;
+    margin: 0 auto;
+}
+
+.arrow-left {
+    background: url("photoshop/Bhagaskara-assets/arrow-left.png");
+    width: 64px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.arrow-right {
+    background: url("photoshop/Bhagaskara-assets/arrow-right.png");
+    width: 64px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.row.arrows {
+    margin: 140px;
+}
+
+.blank {
+    background: url("photoshop/Bhagaskara-assets/blankSpace.png");
+    width: 251px;
+    height: 251px;
+    margin: 0 auto;
+}
+
+.icons {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.google {
+    background: url("photoshop/Bhagaskara-assets/icon_google.png") no-repeat;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.facebook {
+    background: url("photoshop/Bhagaskara-assets/icon_facebook.png") no-repeat;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.team-panel {
+    padding: 120px 0 100px 0;
+}
+
+.name {
+    text-align: center;
+    margin: 40px 0 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.function {
+    text-align: center;
+    margin: 5px 0 30px 0;
+    font-size: 16px;
+}
+
+.skills-panel {
+    padding: 50px 0 150px 0;
+}
+.ourSkills {
+    background: url("photoshop/Bhagaskara-assets/ourSkills.png");
+    width: 296px;
+    height: 114px;
+    margin: 0 auto;
+}
+
+.row.skills {
+    padding: 0 0 150px 0;
+}
+
+.text-bar-panel {
+    padding: 40px 0 20px 0;
+}
+
+.text-bar {
+    font-size: 22.62px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+}
+
+.percent {
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: right;
+}
+
+.progress-bar {
+    background-color: #9f449b;
+}
+
+.faq-panel {
+    background: url(photoshop/Bhagaskara-assets/base_learn.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 140px 0;
+}
+
+.icon-faq {
+    background: url("photoshop/Bhagaskara-assets/iconFaq.png");
+    width: 167px;
+    height: 181px;
+    margin: 0 auto;
+}
+
+.faq-panel .text {
+    color: white;
+    font-size: 46px;
+    padding: 80px 0 0 0;
+    line-height: 55px;
+}
+
+.row.numbers {
+    padding: 150px 0 100px 0;
+}
+
+.number {
+    color: black;
+    font-size: 64px;
+}
+
+.numbers div {
+    font-size: 16px;
+    color: #7f7f7f;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+    text-align: center;
+}
