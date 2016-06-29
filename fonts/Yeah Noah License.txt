@@ -1,10 +1,3 @@
-Thank you for downloading this font.
-
-Font name: Existence Stencil Light
-Font format: OpenType, PS-flavoured
-Designer: Yeah Noah (yeahnoah@netscape.net)
-Designer URL: http://mywebpage.netscape.com/yeahnoah/index.html
-
 You can use this font at your own risk as you like.
 You can freely distribute the original unmodified archive file as long 
 as no money involved.
@@ -54,3 +47,4 @@ damages for loss of business profits, business interruption, loss of
 business information, or any other pecuniary loss) arising out of
 the use of or inability to use this product, even if Yeah Noah has
 been advised of the possibility of such damages.
+

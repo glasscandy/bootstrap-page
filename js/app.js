@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
 
 // sticky menu
 
@@ -19,18 +19,18 @@ $(function() {
     $(window).on("resize", function () {
 
         if (menu.hasClass("sticky") === true) {
-            top = nav.offset().top - 10;
+            top = nav.offset().top;
         } else {
-            top = menu.offset().top - 10;
+            top = menu.offset().top;
         }
     });
 
 //scroll
 
-    var scroll = $(".scroll");
+    var scroll = $(".btn-scroll");
     scroll.on("click", function (event) {
         $('html,body').animate({
-            scrollTop: $(nav).offset().top - 18
+            scrollTop: $(nav).offset().top
         }, 600);
     });
 
@@ -98,45 +98,4 @@ $(function() {
     portfolio();
 
 
-
-// form
-
-          // function formValidation() {
-          //
-          //
-          //   var form = $("#contactForm");
-          //   var emailInput = $("#emailInput");
-          //   var passwordInput = $("#passwordInput");
-          //   var messageInput = $("#messageInput");
-          //   var error = $(".error");
-          //
-          //   form.on("submit", function(e) {
-          //
-          //     e.preventDefault();
-          //   });
-          //
-          //   var email = emailInput.val();
-          //   var password = passwordInput.val();
-          //   var message = messageInput.val()
-          //   if (password.length > 5) {
-          //     if ((email.search("@") !== -1) && (email.search(".") !== -1)) {
-          //       if (message.length > 10) {
-          //         error.text("formularz został wysłany")
-          //       } else {
-          //         e.preventDefault();
-          //         error.text("wiadomosc musi byc dluzsza niz 10 znakow")
-          //       }
-          //     } else {
-          //       e.preventDefault();
-          //       error.text("email musi zawirac @ i kropke");
-          //     }
-          //   } else {
-          //     e.preventDefault();
-          //     error.text("hasło musi miec więcej niż 5 znakow")
-          //   };
-          //
-          // };
-          //
-          // formValidation();
-
-        });
+});

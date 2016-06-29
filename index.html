@@ -21,7 +21,8 @@
 </head>
 <body>
 
-<div class="city-view">
+<!-- first-view/city-view panel -->
+<div class="city-view-panel" id="top">
     <div class="container">
         <div class="row title-row">
             <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
@@ -42,34 +43,47 @@
         <div class="row">
             <div class="col-xs-12 col-sm-1 col-md-4 col-lg-4"></div>
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-service"></div>
+                <a href="#services">
+                    <div class="btn-services"></div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-portfolio"></div>
+                <a href="#portfolio">
+                    <div class="btn-portfolio"></div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-1 col-md-4 col-lg-4"></div>
         </div>
 
         <div class="row">
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-about"></div>
+                <a href="#about">
+                    <div class="btn-about"></div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-team"></div>
+                <a href="#team">
+                    <div class="btn-team"></div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-1 col-md-4 col-lg-4"></div>
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-blog"></div>
+                <a href="#">
+                    <div class="btn-blog"></div>
+                </a>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-                <div class="btn-contact"></div>
+                <a href="#contact">
+                    <div class="btn-contact"></div>
+                </a>
+
             </div>
         </div>
         <div class="row-scroll">
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"></div>
             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <a href="#">
-                    <div class="btn-scroll animated bounceIn"></div>
+                    <div class="btn-scroll"></div>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"></div>
@@ -77,6 +91,7 @@
     </div>
 </div>
 
+<!-- menu/nav panel -->
 <div class="menu-panel">
     <div class="container">
         <div class="row menu">
@@ -89,7 +104,7 @@
                     <li><a href="#top">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#team">TEAM</a></li>
-                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#services">SERVICES</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#blog">BLOG</a></li>
                     <li><a href="#contact">CONTACT</a></li>
@@ -99,10 +114,11 @@
     </div>
 </div>
 
-<div class="menu-second">
+<!-- under-menu panel -->
+<div class="under-menu-panel">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 build-love">
                 <div class="btn-build-love"></div>
                 <p>Build with love</p>
                 <div class="text">Fusce facilisis velit libero, nec
@@ -110,7 +126,7 @@
                 Sed nec porta ante. Pellentesque
                 habitant morbi tristique senectus.</div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 clean-mod">
                 <div class="btn-clean-mod"></div>
                 <p>Clean and modern</p>
                 <div class="text">Fusce facilisis velit libero, nec
@@ -118,7 +134,7 @@
                 Sed nec porta ante. Pellentesque
                 habitant morbi tristique senectus.</div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 easy-use">
                 <div class="btn-easy-use"></div>
                 <p>Easy to use</p>
                 <div class="text">Fusce facilisis velit libero, nec
@@ -126,7 +142,7 @@
                 Sed nec porta ante. Pellentesque
                 habitant morbi tristique senectus.</div>
             </div>
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 fully-resp">
                 <div class="btn-fully-resp"></div>
                 <p>Fully responsive</p>
                 <div class="text">Fusce facilisis velit libero, nec
@@ -138,9 +154,10 @@
     </div>
 </div>
 
-<div class="about-panel">
+<!-- about panel -->
+<div class="about-panel" id="about">
     <div class="container">
-        <div class="row">
+        <div class="row about">
             <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4"></div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="aboutUs"></div>
@@ -166,6 +183,7 @@
     </div>
 </div>
 
+<!-- learn panel -->
 <div class="learn-panel">
     <div class="container">
         <div class="row">
@@ -185,7 +203,8 @@
     </div>
 </div>
 
-<div class="team-panel">
+<!-- team panel -->
+<div class="team-panel" id="team">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4"></div>
@@ -210,8 +229,8 @@
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="blank"></div>
-                <p class="name">Jan Kowalski</p>
+                <div class="team-member1"></div>
+                <p class="name">Purr Purr</p>
                 <p class="function">CEO / Marketing Guru</p>
                 <div class="icons">
                     <div class="facebook"></div>
@@ -219,8 +238,8 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="blank"></div>
-                <p class="name">Jan Kowalski</p>
+                <div class="team-member2"></div>
+                <p class="name">Miau Miau</p>
                 <p class="function">CEO / Marketing Guru</p>
                 <div class="icons">
                     <div class="facebook"></div>
@@ -228,8 +247,8 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="blank"></div>
-                <p class="name">Jan Kowalski</p>
+                <div class="team-member3"></div>
+                <p class="name">Prych Prych</p>
                 <p class="function">CEO / Marketing Guru</p>
                 <div class="icons">
                     <div class="facebook"></div>
@@ -240,6 +259,7 @@
     </div>
 </div>
 
+<!-- skills panel -->
 <div class="skills-panel">
     <div class="container">
         <div class="row skills">
@@ -253,7 +273,7 @@
             <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                 <div class="text-bar-panel">
-                    <div class="text-bar">web desing</div>
+                    <div class="text-bar">web design</div>
                     <div class="percent">90%</div>
                 </div>
                 <div class="progress">
@@ -265,7 +285,7 @@
             </div>
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                 <div class="text-bar-panel">
-                    <div class="text-bar">graphic desing</div>
+                    <div class="text-bar">graphic design</div>
                     <div class="percent">70%</div>
                 </div>
                 <div class="progress">
@@ -308,7 +328,8 @@
     </div>
 </div>
 
-<div class="faq-panel">
+<!-- faq/services panel -->
+<div class="faq-panel" id="services">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"></div>
@@ -327,6 +348,7 @@
     </div>
 </div>
 
+<!-- carousel/gallery panel -->
 <div class="carousel-panel">
     <div class="container">
         <div class="row numbers">
@@ -365,7 +387,7 @@
                                 <div class="item active carousel-item">
                                     <div class="row">
                                         <div class="col-sm-2 col-md-5"></div>
-                                        <div class="col-sm-8 col-md-2 test_content"><img src="images/testimonial1.png" alt="testimonial"></div>
+                                        <div class="col-sm-8 col-md-2 test_content"><img src="images/carPhoto1.png" alt="testimonial"></div>
                                         <div class="col-sm-2 col-md-5"></div>
                                     </div>
                                     <div class="row">
@@ -381,7 +403,7 @@
                                 <div class="item carousel-item">
                                     <div class="row">
                                         <div class="col-md-5"></div>
-                                        <div class="col-sm-12 col-md-2 test_content"><img src="images/testimonial2.png" alt="testimonial"></div>
+                                        <div class="col-sm-12 col-md-2 test_content"><img src="images/carPhoto2.png" alt="testimonial"></div>
                                         <div class="col-md-5"></div>
                                     </div>
                                     <div class="row">
@@ -397,7 +419,7 @@
                                 <div class="item carousel-item">
                                     <div class="row">
                                         <div class="col-md-5"></div>
-                                        <div class=" col-sm-12 col-md-2 test_content"><img src="images/testimonial3.png" alt="testimonial"></div>
+                                        <div class=" col-sm-12 col-md-2 test_content"><img src="images/carPhoto3.png" alt="testimonial"></div>
                                         <div class="col-md-5"></div>
                                     </div>
                                     <div class="row">
@@ -419,6 +441,7 @@
     </div>
 </div>
 
+<!-- portfolio panel -->
 <div class="portfolio" id="portfolio">
     <div class="container">
         <div class="row portfolio_row">
@@ -432,7 +455,7 @@
             <div class="col-md-4"></div>
             <div class="col-md-4">
                 <ul class="btns">
-                    <li class="select btn_all">All</li>
+                    <li class="select btn_all">all</li>
                     <li class="select btn_web">web</li>
                     <li class="select btn_apps">apps</li>
                     <li class="select btn_icons">icons</li>
@@ -494,12 +517,13 @@
     </div>
 </div>
 
+<!--contact panel-->
 <div class="contact" id="contact">
     <div class="container">
         <div class="row contact_row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-                <div class="img_getintouch"></div>
+                <div class="getInTouch"></div>
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -518,8 +542,7 @@
 
                     <div class="form-group row">
                         <div class="col-sm-12 col-md-12">
-                            <input type="password" class="form-control" id="inputPassword3" id="passwordInput"
-                                   placeholder="Password">
+                            <input type="name" class="form-control" id="inputName" id="nameInput" placeholder="Name">
                         </div>
                     </div>
 
@@ -567,9 +590,11 @@
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-12">
-        <div class="logo"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="logo"></div>
+        </div>
     </div>
 </div>
 

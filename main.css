@@ -1,22 +1,28 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: myFont;
 }
 
-.container {
-    color: #676767;
-    font-family: Dotum;
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Existence-Light.otf);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
 /* decoration color */
-
 .decor {
     color: #9f449b;
 }
 
-/* city-view panel */
-
-.city-view {
+/* first-view/city-view panel */
+.city-view-panel {
     background: url(photoshop/Bhagaskara-assets/base.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -28,6 +34,7 @@ body {
 .title {
     font-size: 90px;
     color: white;
+    font-weight: bold;
 }
 
 .title-row {
@@ -50,7 +57,7 @@ body {
     text-align: center;
 }
 
-.btn-service {
+.btn-services {
     background: url("photoshop/Bhagaskara-assets/btn_services.png");
     width: 167px;
     height: 181px;
@@ -99,6 +106,13 @@ body {
     margin: 0 auto;
 }
 
+
+.btn-contact:hover,
+.btn-blog:hover,
+.btn-team:hover,
+.btn-about:hover,
+.btn-portfolio:hover,
+.btn-services:hover,
 .btn-scroll:hover {
     transform: scale(1.1);
 }
@@ -107,20 +121,30 @@ body {
     padding-bottom: 150px;
 }
 
-/*menu panel*/
-
+/* menu/nav panel */
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.nav li a{
-    padding: 0 5px 0 10px;
+.nav li a {
+    padding-left: 25px;
     text-decoration: none;
     color: #676767;
+}
+
+.nav li a:hover {
+    color: #9f449b;
+    background-color: white;
+}
+
+.nav li a:link,
+.nav li a:visited,
+.nav li a:active {
+    background-color: white;
 }
 
 .title-menu {
@@ -137,6 +161,7 @@ body {
     background-color: white;
     width: 100%;
     z-index: 9999;
+    font-weight: bold;
 }
 
 .sticky {
@@ -145,8 +170,7 @@ body {
     left: 0;
 }
 
-/* menu-second panel */
-
+/* under-menu panel */
 .btn-build-love {
     background: url("photoshop/Bhagaskara-assets/btn_buildLove.png");
     width: 172px;
@@ -175,11 +199,39 @@ body {
     margin: 0 auto;
 }
 
-.menu-second {
+.btn-build-love:hover {
+    background: url("photoshop/Bhagaskara-assets/btn_buildLove_pink.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-clean-mod:hover {
+    background: url("photoshop/Bhagaskara-assets/btn_cleanMod_pink.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-easy-use:hover {
+    background: url("photoshop/Bhagaskara-assets/btn_easyToUse_pink.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.btn-fully-resp:hover {
+    background: url("photoshop/Bhagaskara-assets/btn_fullyResp_pink.png");
+    width: 172px;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.under-menu-panel {
     background: #eeeeee;
 }
 
-.menu-second p {
+.under-menu-panel p {
     font-size: 24px;
     text-align: center;
     padding: 30px 0 20px 0;
@@ -191,12 +243,11 @@ body {
     line-height: 28px;
 }
 
-.menu-second .row {
+.under-menu-panel .row {
     padding: 200px 0 200px 0;
 }
 
 /* about panel */
-
 .aboutUs {
     background: url("photoshop/Bhagaskara-assets/aboutUs.png");
     width: 270px;
@@ -211,8 +262,12 @@ body {
     margin: 0 auto;
 }
 
-.about-panel .row {
-    padding: 100px 0 150px 0;
+.about {
+    padding: 220px 0 100px 0;
+}
+
+.about-panel {
+    padding-bottom: 100px;
 }
 
 .about-panel p {
@@ -227,14 +282,13 @@ body {
     background: #9f449b;
     padding: 23px 0 25px 0;
     border-radius: 10px;
-    box-shadow: 0 3px #6b2e68;
+    box-shadow: 0 4px #6b2e68;
     margin: 174px 0 0 0;
     color: white;
     font-size: 20px;
 }
 
 /* learn panel */
-
 .learn-panel {
     background: url(photoshop/Bhagaskara-assets/base_learn.png) no-repeat;
     -webkit-background-size: cover;
@@ -260,15 +314,15 @@ body {
 }
 
 /* team panel */
-
 .ourTeam {
-    background: url("photoshop/Bhagaskara-assets/ourTeam.png");
+    background: url("photoshop/Bhagaskara-assets/ourTeam.png") no-repeat;
     width: 296px;
     height: 114px;
     margin: 0 auto;
+    padding: 120px;
 }
 
-.arrow-left {
+/*.arrow-left {
     background: url("photoshop/Bhagaskara-assets/arrow-left.png");
     width: 64px;
     height: 70px;
@@ -284,10 +338,31 @@ body {
 
 .row.arrows {
     margin: 140px;
+}*/
+
+/*.blank {
+    background: url("photoshop/Bhagaskara-assets/blankSpace.png");
+    width: 251px;
+    height: 251px;
+    margin: 0 auto;
+}*/
+
+.team-member1 {
+    background: url("images/1ok.jpg");
+    width: 251px;
+    height: 251px;
+    margin: 0 auto;
 }
 
-.blank {
-    background: url("photoshop/Bhagaskara-assets/blankSpace.png");
+.team-member2 {
+    background: url("images/2ok.jpg");
+    width: 251px;
+    height: 251px;
+    margin: 0 auto;
+}
+
+.team-member3 {
+    background: url("images/3ok.jpg");
     width: 251px;
     height: 251px;
     margin: 0 auto;
@@ -295,7 +370,7 @@ body {
 
 .icons {
     margin: 0 auto;
-    padding: 0 125px 0 125px;
+    padding: 0 128px 0 128px;
     display: inline-block;
     height: 47px;
     width: 350px;
@@ -319,7 +394,7 @@ body {
 }
 
 .team-panel {
-    padding: 120px 0 100px 0;
+    padding: 220px 0 100px 0;
 }
 
 .name {
@@ -337,7 +412,6 @@ body {
 }
 
 /* skills panel */
-
 .skills-panel {
     padding: 50px 0 150px 0;
 }
@@ -365,7 +439,7 @@ body {
 
 .percent {
     font-size: 24px;
-    font-weight: lighter;
+    font-weight: bold;
     text-align: right;
 }
 
@@ -374,7 +448,6 @@ body {
 }
 
 /* faq panel */
-
 .faq-panel {
     background: url(photoshop/Bhagaskara-assets/base_learn.png) no-repeat;
     -webkit-background-size: cover;
@@ -382,7 +455,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    padding: 200px 0 140px 0;
+    padding: 220px 0 140px 0;
 }
 
 .icon-faq {
@@ -400,7 +473,6 @@ body {
 }
 
 /* carousel panel */
-
 .row.numbers {
     padding: 150px 0 80px 0;
 }
@@ -408,6 +480,7 @@ body {
 .number {
     color: black;
     font-size: 64px;
+    font-weight: bold;
 }
 
 .numbers div {
@@ -463,10 +536,8 @@ body {
 
 
 /* portfolio panel*/
-
 .portfolio_row {
-    margin-top: 150px;
-    margin-bottom: 60px;
+    padding: 220px 0 60px 0;
 }
 
 .img_portfolio {
@@ -479,13 +550,14 @@ body {
 .btns {
     list-style: none;
     text-decoration: none;
+    padding: 0px
 }
 
 .btn_all,
 .btn_apps,
 .btn_icons,
 .btn_web {
-    width: 23%;
+    width: 24%;
     height: 38px;
     border: 1px solid #676767;
     color: #676767;
@@ -498,6 +570,8 @@ body {
     cursor: pointer;
     line-height: 35px;
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .btn_all:hover,
@@ -521,7 +595,7 @@ body {
 }
 
 .modal-body {
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .portfolio_item {
@@ -601,25 +675,24 @@ a.controls {
     height: 72px;
     background: #9f449b;
     border-radius: 10px;
-    box-shadow: 0 5px #6b2e68;
+    box-shadow: 0 4px #6b2e68;
     color: white;
     font-size: 20px;
     line-height: 72px;
     text-align: center;
     margin: 0 auto;
+    padding-top: 5px;
 }
 
 /* contact panel */
-
-.img_getintouch {
+.getInTouch {
     background: url("photoshop/Bhagaskara-assets/getInTouch.png");
     width: 369px;
     height: 114px;
 }
 
 .contact_row {
-    margin-top: 150px;
-    margin-bottom: 70px;
+    padding: 220px 0 100px 0;
 }
 
 textarea.form-control {
@@ -639,13 +712,19 @@ textarea.form-control {
     height: 72px;
     background: #9f449b;
     border-radius: 10px;
-    box-shadow: 0 5px #6b2e68;
+    box-shadow: 0 4px #6b2e68;
     color: white;
     font-size: 20px;
     line-height: 72px;
     text-align: center;
     margin: 0 auto;
     border: 0;
+    padding-top: 5px;
+    float: left;
+}
+
+button:focus {
+    outline: none;
 }
 
 .info {
@@ -682,8 +761,8 @@ textarea.form-control {
 }
 
 .logo {
-    background: url("photoshop/Bhagaskara-assets/bhagaskaraLogo.png");
+    background: url("photoshop/Bhagaskara-assets/bhagaskaraLogo.png") no-repeat;
     width: 274px;
     height: 63px;
-    margin: 40px auto 70px;
+    margin: 70px auto 60px;
 }
